@@ -1,5 +1,7 @@
 @import './icons.css';
 @import './fonts.css';
+@import './body.css';
+@import './link.css';
 :root{
     --primary:#00B050;
     --white:#FFF;
