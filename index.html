@@ -8,8 +8,9 @@
     <title>Spotifu</title>
 </head>
 <body class="body">
+
     <div class="playerControls">
-        <div class="playerControl-buttons">
+        <div class="playerControl-buttons" aria-label="Controles de reproduccion">
             <button class="buttonIcon" aria-label="Anterior" title="Anterior">
                 <i class="icon-prev" aria-hidden="true"></i>
             </button>
@@ -30,6 +31,18 @@
                 </div>
             </div>
             <span class="playerPlayback-progressTime">2:30</span>
+        </div>
+    </div>
+    <div class="playerVolume">
+        <button class="player-control" aria-label="Silenciar" aria-describedby="volumen-icon">
+            <i class="icon-volumeUp" id="volumen-icon" role="presentation" aria-label="Volumen alto"></i>
+        </button>
+        <div class="playerVolume-slider">
+            <div class="slider">
+                <div class="slider-progress">
+                    <button class="slider-button" aria-label="Controlar el progreso de la reproduccion"></button>
+                </div>
+            </div>
         </div>
     </div>
     <div class="sidebar">
