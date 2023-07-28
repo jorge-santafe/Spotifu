@@ -1,0 +1,35 @@
+.playlistB{
+    inline-size: 17.5rem;
+    display: flex;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background: rgba(255, 255, 255, .1);
+}
+.playlistB:hover,   
+.playlistB:focus-within{
+    background: rgba(255, 255, 255, .2);
+}
+.playlistB-cover img{
+    inline-size:4.75rem ;
+    block-size:4.75rem ;
+    vertical-align: middle;
+}
+.playlistB-details{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 1rem;
+}
+.playlistB-title{
+    font: var(--baseFontBold);
+    color: var(--white);
+    margin: 0;
+}
+.playlistB:hover .playlistB-control,
+.playlistB:focus-within .playlistB-control{
+    opacity: 1;
+}
+.playlistB-control{
+    opacity: 0;
+    transition: .3s;
+}
