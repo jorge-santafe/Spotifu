@@ -8,6 +8,7 @@
 @import './player.css';
 @import './page.css';
 @import './sticky.css';
+@import './layout.css';
 :root{
     --primary:#00B050;
     --white:#FFF;
