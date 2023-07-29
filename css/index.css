@@ -27,3 +27,13 @@
     --button:500 0.875rem/1rem var(--basefontFamily);
     --small:normal .75em/normal var(--baseFontFamily);
 }
+@media screen and (min-width: 768px){
+    :root{
+      font-size: 16px;
+    }
+  }
+  @media screen and (min-width: 1920px){
+    :root{
+      font-size: 18px;
+    }
+  }
