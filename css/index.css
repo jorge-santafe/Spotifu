@@ -9,6 +9,8 @@
 @import './page.css';
 @import './sticky.css';
 @import './layout.css';
+@import './scrollbar.css';
+
 :root{
     --primary:#00B050;
     --white:#FFF;

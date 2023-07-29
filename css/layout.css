@@ -6,6 +6,7 @@
 }
 .layout{
     min-inline-size: var(--minInlineSize);
+    overflow: hidden;
 }
 .layout-sidebar{
     min-block-size: var(--minBlockSize);
