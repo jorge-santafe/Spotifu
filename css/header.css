@@ -1,0 +1,11 @@
+@import './search.css';
+@import './navigation.css';
+@import './user.css';
+.header{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding-inline: 1.5rem;
+    padding-block: 1rem;
+    background-color: var(--gray50);
+}

@@ -1,0 +1,36 @@
+.user{
+    display: flex;
+    align-items: center;
+    padding-block:0.25rem;
+    padding-inline-start: 0.25rem;
+    padding-inline-end: 0.625rem;
+    border-radius:1rem ;
+    transition: .3s;
+}
+.user:hover{
+    background-color: var(--gray30);
+}
+.user-cover {
+    overflow: hidden;
+    border-radius: 50%;
+    margin-inline-end:4px;
+}
+.user-cover img{
+    inline-size: 1.75rem;
+    block-size: 1.75rem;
+    vertical-align: middle;
+}
+.user-details{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.user-title{
+    font: var(--baseFont) ;
+    color: var(--white);
+    margin: 0;
+}
+.user-details i{
+    font-size: 10px;
+    color: var(--white);
+}
